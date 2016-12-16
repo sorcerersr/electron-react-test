@@ -1,0 +1,17 @@
+{
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "extends": ["eslint:recommended", "google"],
+    "installedESLint": true,
+    "plugins": [
+      "react"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "sourceType": "module"
+    }
+}
